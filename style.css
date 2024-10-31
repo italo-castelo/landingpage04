@@ -1,0 +1,34 @@
+link
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 20rem;
+    height: 100rem;
+    background-color: red;
+}
+
+.navbar {
+    width: 130rem;
+    height: 4rem;
+    margin-left: -24rem;
+    background-color: white;
+    padding: 0.5rem;
+    }
+    
+
+.navbartop{
+    background-color: white;
+}
+
+.caregiver{
+    color: #2CCAA2 !important;
+    text-decoration: none;
+}
+
+.caregiver::after {
+    color: #000 !important;
+    }
+    
