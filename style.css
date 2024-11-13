@@ -4,10 +4,22 @@
     box-sizing: border-box;
 }
 
+
 .navbartop {
     background-color: white;
     padding: 1rem;
-    width: 100rem;
+    width: 90vw;
+    margin-left: -16vw;
+}
+
+.d-flex{
+    width: 10vw;
+    margin-left: 35vw;
+}
+
+.qrcode{
+    display: flex;
+    
 }
 
 .navbar {
@@ -25,22 +37,30 @@
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .container2 {
     display: flex;
     align-items: center;
+    width: 100vw;
 }
 
 .flex-container2 {
     display: flex;
-    gap: 1rem;
+    gap: 0.4rem;
+    margin-right: 2vw;
+}
+
+.img-tamanho img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 .img-tamanho {
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     border-radius: 100%;
     border: 4px solid #2CCAA2;
     
@@ -50,8 +70,12 @@
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 8px;
-    max-width: 400px;
-    width: 100%;
+    width: 30vw;
+    margin-left: 10vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
 }
 
 .formulario input[type="text"], .formulario input[type="email"] {
@@ -63,14 +87,45 @@
     margin-bottom: 1rem;
 }
 
-.qr-code {
+.qrcode {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
+    margin-left: 2.1vw;
+    height: 10vh;
+    width: 10vw;
 }
 
-.qr-code img {
-    width: 80px;
-    height: 80px;
+.comentarioqr{
+    width: 6vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1vw;
+    color: gray;
+    background-color: white;
+    margin-top: 9vh;
+    position: absolute;
+
+}
+.qrcode img {
+    width: 90px;
+    height: 90px;
+    margin-right: 5vw;
+    position: absolute;
+}
+
+.formulario{
+    display: flex;
+    width: 20vw;
+}
+
+.alerta{
+width: 20vw;
+background-color: red;    
+}
+.oisom{
+    width: 90%;
 }
