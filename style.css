@@ -322,3 +322,9 @@ background-color: red;
     display: flex;
     justify-content: center;
 }
+
+.highlight{
+    color: #2CCAA2;
+    text-decoration: none;
+    font-weight: bold;
+}
