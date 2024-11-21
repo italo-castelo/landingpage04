@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -66,7 +67,7 @@
     
 }
 
-.formulario {
+/* .formulario {
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 8px;
@@ -76,12 +77,12 @@
     align-items: flex-start;
     gap: 20px;
 
-}
+} */
 
-.formulario input[type="text"], .formulario input[type="email"] {
+/* .formulario input[type="text"], .formulario input[type="email"] {
     margin-bottom: 1rem;
     width: 100%;
-}
+} */
 
 .input-group {
     margin-bottom: 1rem;
@@ -94,7 +95,7 @@
     margin-top: 1rem;
     margin-left: 2.1vw;
     height: 10vh;
-    width: 20vw;
+    width: 10vw;
 }
 
 .comentarioqr{
@@ -117,19 +118,207 @@
     position: absolute;
 }
 
-.formulario{
+/* .formulario{
     display: flex;
     width: 20vw;
-}
+} */
 
 .alerta{
 width: 20vw;
 background-color: red;    
 }
-.forms{
+.oisom{
     width: 90%;
 }
+/* Estrutura principal */
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
 
-.maincontent{
-    
+/* Estilo do formulário */
+.form-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+}
+
+.phone-input {
+    flex: 1;
+    border-radius: 0 5px 5px 0;
+}
+
+.terms-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.terms-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms-text a:hover {
+    text-decoration: underline;
+}
+
+/* Grupo de checkboxes */
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox-label input {
+    margin-right: 5px;
+}
+
+/* Botão de submissão */
+.submit-button {
+    background: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.submit-button:enabled {
+    background: #007bff;
+    cursor: pointer;
+}
+
+/* Seção do QR Code */
+.qr-code-section {
+    text-align: center;
+}
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.qr-code-text {
+    font-size: 12px;
+    color: #666;
+}
+
+.maincontent {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.maincontent h3{
+    font-size: 40px;
+    color: #727272;
+}
+
+
+.whywag{
+    display: flex;
+    justify-content: center;
+}
+
+.flexbility{
+    width: 12.9vw;
+    margin-right: 2vw;
+}
+
+.Technology{
+    width: 12.9vw;
+    margin-right: 2vw;
+}
+
+.Safety{
+    width: 12.9vw;
+}
+.flexbility h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    color: #727272;
+}
+
+.Technology h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.Safety h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.flexbilityimg{
+    display: flex;
+    justify-content: center;
+}
+
+.technologyimg{
+    display: flex;
+    justify-content: center;
+}
+
+.safetyimg{
+    display: flex;
+    justify-content: center;
 }
